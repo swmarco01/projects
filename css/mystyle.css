@@ -1,0 +1,382 @@
+.loginform{
+    display: table;
+}
+.logininput{
+    display: table-row;
+    border-radius: 5px;
+    border-style: none;
+    box-shadow: 2px 2px 5px 0px;
+    font-family: "Poppins", sans-serif;
+}
+#buttonnostyle{
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: inherit;
+    color: #ffffff;
+    font-size: 12px;
+    font-family: "Poppins", sans-serif;
+}
+#center{
+    margin: 0 auto;
+}
+.content{
+    height: 0px;
+    width: 100%;
+    display: none;
+}
+.menulogin{
+    display: none;
+    position: absolute;
+}
+.login-container{
+    display: none;
+    position: absolute;
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    opacity: 100%;
+    z-index: 50;
+    
+}
+.opacitycontainer{
+    display: none;
+    position: fixed;
+    opacity: 85%;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    z-index: 48;
+}
+.fullscreen-container1{
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    z-index: 49;
+    display: none;
+}
+
+@media screen and (min-width: 992px){
+    .login-container{
+        width: 700px;
+        height: 700px;   
+        top: 50%;
+        left: 50%;
+        margin-top: -350px;
+        margin-left: -350px;
+        transition: 1s;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 991px){
+    .login-container{
+        width: 500px;
+        height: 500px;   
+        top: 50%;
+        left: 50%;
+        margin-top: -250px;
+        margin-left: -250px;
+    }
+}
+
+@media screen and (min-width: 576px) and (max-width: 767px){
+    .login-container{
+        width: 100%;
+        height: 100%;   
+    }
+}
+@media screen and (max-width: 576px){
+    .login-container{
+        width: 100%;
+        height: 100%;   
+    }
+}
+.password-change-container{
+    display: none;
+}
+.login-container-internal{
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    top: 5%;
+    left: 5%;
+    
+}
+.login-form{
+    margin: auto;
+    width: 100%;
+}
+.form-input1{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.span-glyph1{
+    margin: auto;
+    font-size: 100px;
+    color: black;
+    text-shadow: 0px 0px 4px rgba(255, 127, 51, 1);
+}
+.span-glyph2{
+    cursor: pointer;
+    margin-left: 98%;
+    font-size: 15px;
+    color: gray;
+}
+.formtext{
+    margin: 0 auto;
+}
+.form-row{
+    width: 100%;
+
+}
+.center-div{
+    margin: 0 auto;
+}
+.submit-button{
+    float: right;
+}
+.p-change-password{
+    float: left;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.wrongalert{
+    display: none;
+}
+.successalert{
+    display: none;
+}
+#button_login_personale{
+    cursor: pointer;
+}
+#username-nav-item{
+    cursor: pointer;
+}
+.profile-menu{
+    position: fixed;
+    margin-top: 35px;
+}
+.box-profile{
+    height: 100%;
+}
+.page-webapp{
+    width: 100%;
+    height: 500px;
+    position: relative;
+    top: 0%;
+    bottom: 0%;
+}
+.webapp-table-container{
+    
+    position: relative;
+    float: right;
+    border: 1px solid gray;
+    width: 70%;
+    
+    background-color: #404044;
+    box-shadow: 0px 0px 10px 0px rgba(255,127,51,0.75);
+}
+.webapp-insert-container{
+    margin-bottom: 20px;
+    position: relative;
+    float: right;
+    border: 1px solid gray;
+    width: 70%;
+    background-color: #404044;
+    box-shadow: 0px 0px 10px 0px rgba(255,127,51,0.75);
+}
+.webapp-table{
+    width: 20%;
+    height: 100%;
+    border: 1px solid blue;
+}
+.side-menu{
+    background-color: #404044;
+    position: absolute;
+    border: 1px solid gray;
+    width: 15%;
+    height: 100%;
+    float: left;
+    box-shadow: 0px 0px 10px 0px rgba(255,127,51,0.75);
+}
+@media screen and (max-width: 1279px){
+    #webapp-section{
+        display : none;
+    }
+}
+@media screen and (max-width: 1279px){
+    #webapp-section-poorwidth{
+        display: block;
+    }
+}
+@media screen and (min-width: 1280px){
+    #webapp-section{
+        display : block;
+    }
+}
+@media screen and (min-width: 1280px){
+    #webapp-section-poorwidth{
+        display:none;
+    }
+}
+.container1{
+    position: relative;
+    width: 70%;
+    margin: 0 auto;
+}
+.welcometext-container{
+    margin: auto;
+    margin-bottom: 80px;
+}
+.welcometext::after{
+    content: '';
+    float: left;
+    bottom: 0;
+    width: 90%;
+    height: 3px;
+    background-color:#ff7f33;
+    margin-left: 5%;
+    margin-top: 30px;
+}
+.center{
+    margin: auto;   
+}
+.rd2-nav-link{
+    font-size: 12px;
+    line-height: 1.2;
+    transition: .25s;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    display: inline-block;
+    padding-bottom: 10px;
+    letter-spacing: 2.2px;  
+    font-weight: bold;
+}
+.rd2-nav-item{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.orange-shadow-personal{
+    box-shadow: 0px 0px 10px 0px rgba(255,127,51,0.75);
+}
+.plus-glyph{
+    margin-right: 10px;
+    color: #21a021;
+}
+.minus-glyph{
+    margin-right: 10px;
+    color: #c41111;
+}
+.p-link-style{
+    cursor: pointer;
+    color: white;
+}
+.p-link-style:after {    
+    background: none repeat scroll 0 0 transparent;
+    bottom: -5px;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: relative;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+  .p-link-style:hover:after { 
+    width: 100%; 
+    left: 0; 
+  }
+  .webapp-table thead tr th{
+      color:white;
+  }
+  .webapp-table tbody tr td{
+    color:white;
+}
+.insert-container{
+    position: relative;
+    float: left;
+    width: 50%;
+    text-align: right;
+}
+.remove-container{
+    width: 50%;
+    position: relative;
+    float: right;
+    text-align: left;
+}
+.remove-container span {
+    margin-left: 20px;
+}
+.insert-container p {
+    margin-right: 20px;
+}
+
+.function-container-style{
+    display: none;
+    position: absolute;
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    opacity: 100%;
+    z-index: 50;
+    width: 700px;
+    height: 700px;   
+    top: 50%;
+    left: 50%;
+    margin-top: -350px;
+    margin-left: -350px;
+    transition: 1s;
+}
+.function-container-internal-style{
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    top: 5%;
+    left: 5%;
+}
+.functionimg{
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+#webapp-form-tipoveicolo{
+    width: 100%;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.function-form{
+    margin: auto;
+    width: 100%;
+}
+#delete-select-camion{
+    display: none;
+}
+#delete-select-rimorchio{
+    display: none;
+}
+.bold{
+    font-weight: bold;
+}
+#revision-tipoveicolo{
+    font-weight: bold;
+}
+#wheel-tipoveicolo{
+    font-weight: bold;
+}
+#webapp-not-permission{
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    width: 80%;
+    text-align: center;
+}
+#webapp-section-not-permission{
+    height: 500px;
+}
+#webapp-div-poorwidth{
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    width: 80%;
+    text-align: center;
+}
